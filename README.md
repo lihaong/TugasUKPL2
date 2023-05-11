@@ -1,5 +1,6 @@
 # Penjelasan
-
+#### Nama : Muhammad Fajar Andikha
+#### NIM : 123200054
 ### Penjelasan Teknik Boundary Value Analysis
 Kode yang diberikan adalah contoh pengujian menggunakan teknik Boundary Value Analysis pada sebuah fungsi `get_grade()` yang menghitung nilai grade berdasarkan skor yang diberikan. 
 Fungsi tersebut memiliki beberapa kondisi yang memproses skor dan mengembalikan nilai grade yang sesuai dengan rentang skor.
