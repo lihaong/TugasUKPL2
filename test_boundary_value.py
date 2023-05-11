@@ -27,11 +27,3 @@ if __name__ == "__main__":
     test_boundary_values()
 
     print("All tests passed!")
-
-# Kode ini menggunakan teknik Boundary Value Analysis pada sebuah fungsi `get_grade()` yang menghitung nilai grade berdasarkan skor yang diberikan. Fungsi tersebut memiliki beberapa kondisi yang memproses skor dan mengembalikan nilai grade yang sesuai dengan rentang skor.
-
-# Pada kode pengujian, terdapat sebuah fungsi `test_boundary_values()` yang melakukan pengujian pada nilai-nilai batas. Fungsi tersebut melakukan iterasi pada `boundary_test_cases`, yang merupakan sebuah daftar pasangan nilai skor dan nilai grade yang diharapkan. 
-
-# Setiap pasangan nilai skor dan nilai grade diuji dengan memanggil fungsi `get_grade()` dan membandingkan nilai yang dikembalikan dengan nilai grade yang diharapkan. Pengujian dilakukan dengan menggunakan asserstion statement pada baris ke-14, dimana jika fungsi `get_grade()` mengembalikan nilai yang tidak sesuai dengan nilai grade yang diharapkan, maka assertion statement akan gagal dan mengembalikan pesan error yang menjelaskan kesalahan yang terjadi.
-
-# Pada blok `if __name__ == "__main__":`, fungsi pengujian `test_boundary_values()` dipanggil dan program akan mengecek apakah semua pengujian telah berhasil dilakukan atau tidak. Jika semua pengujian berhasil dilakukan, maka program akan mencetak pesan "All tests passed!" untuk menandakan bahwa kode pengujian berjalan dengan baik dan fungsi `get_grade()` telah mengembalikan nilai grade yang diharapkan pada semua kasus uji yang diuji menggunakan teknik Boundary Value Analysis.
